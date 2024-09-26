@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "LinkedIn Wide Screen",
+  "version": "1.0.1",
+  "description": "Modifies LinkedIn's layout for a wider screen experience.",
+  "permissions": [
+    "activeTab",
+    "storage"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://www.linkedin.com/*"],
+      "js": ["content.js"]
+    }
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  }
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LinkedIn Wide Screen Settings</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 10px;
+        }
+        label {
+            display: block;
+            margin: 10px 0 5px;
+        }
+        input {
+            width: 290px;
+        }
+
+        #settings-form{
+            min-width: 300px;
+        }
+
+        .submit-btn{
+            width: 297px;
+            margin-top: 15px;
+        }
+    </style>
+</head>
+<body>
+    <h2>LinkedIn Wide Screen Settings</h2>
+    <form id="settings-form">
+        <label for="width">Width (1-99%)</label>
+        <input type="number" value="99" id="width" name="width" min="1" max="99" required>
+
+        <label for="max-width">Max Width (1000-10000px)</label>
+        <input type="number" value="1840" id="max-width" name="max-width" min="1000" max="10000" required>
+
+        <input type="submit" class="submit-btn" value="Save" />
+    </form>
+    <br>
+    <a href="https://github.com/zeiadhabbab/LinkedIn-Wide-Screen-Settings" target="_blank">Soruce code</a>
+    <script src="popup.js"></script>
+</body>
+</html>
