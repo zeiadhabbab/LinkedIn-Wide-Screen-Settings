@@ -2,6 +2,7 @@
 # LinkedIn Wide Screen Chrome Extension
 
 LinkedIn Wide Screen is a Chrome extension that customizes the layout of LinkedIn to provide a wider, more optimized viewing experience. This extension allows users to adjust the width and max-width of the LinkedIn interface, enhancing usability on larger screens.
+![image](https://github.com/user-attachments/assets/1fd4e514-eb69-490c-bba9-aa315d4d2d21)
 
 ## Features
 
